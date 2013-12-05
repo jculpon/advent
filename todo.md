@@ -32,6 +32,12 @@ Calendar
 - [ ] Calendarish layout
 - [ ] Basic Styling (pixelish?)
 
+Automation
+----------
+
+- [ ] Deploy web content to pages
+- [ ] Put game content in appropriate spot?
+
 Promotion
 ---------
 
