@@ -13,7 +13,10 @@ Game Idealets
 Research
 --------
 
-- [ ] Does a Stencyl equivelent for the web exist?
+- [x] Does a Stencyl equivelent for the web exist? *Stencyl can export SWFs but not anything plugin-free; listing some libs/engines to look in to below*
+- [ ] Look at Phaser: http://phaser.io/
+- [ ] Look at three.js: http://threejs.org/
+- [ ] Look at pixi.js: https://github.com/GoodBoyDigital/pixi.js
 - [ ] What are other folks doing with twine?
 - [ ] Canvas? 
 - [ ] WebGL?
