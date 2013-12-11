@@ -11,6 +11,9 @@ help:
 prereqs:
 	pip install -r pip-requirements.txt
 
+publish:
+	@echo 'Not implemented!'
+
 github: publish
 	ghp-import -b $(GITHUB_BRANCH) -m "Publishing github pages from $(LAST_COMMIT)" $(PUBLISH_DIR)
 	git push origin $(GITHUB_BRANCH)
