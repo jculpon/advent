@@ -1,0 +1,31 @@
+* Gameplay
+** Main loop
+Player loads screen, greeted with some text and a progress indicator.
+Player "erases" a word or term from the text that's trans-related and
+the progress indicator fills. 
+When progress indicator is full, move on to the next stage (new text)   
+** Considerations
+*** Text selection
+Might be good to find a story or something that is easy to split into
+sections and yet people would want to finish.
+
+Would also be cool to progress from small amount of erasing to a lot?
+
+Maybe something prominent in history? Some other interesting thing
+*** How do you erase?
+Rub back and forth over word?
+Click word?
+Delete word from <textarea>?
+What happens when you erase the wrong thing?
+*** Feedback
+* Tasks
+** DONE Game overview
+** TODO Dumb sample text
+** TODO Erase word from sample text
+** TODO Progress bar on screen
+** TODO Progress bar goes down when you erase stuff
+** TODO YOU WIN when done erasing
+* Time
+** Initial work start 6:00 PM
+** Break out of org mode fidgeting 6:13 PM
+** Overview finish
