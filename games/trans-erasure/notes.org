@@ -28,4 +28,5 @@ What happens when you erase the wrong thing?
 * Time
 ** Initial work start 6:00 PM
 ** Break out of org mode fidgeting 6:13 PM
-** Overview finish
+** Overview finish 6:30 PM
+** Start looking at impl 9:10 PM
