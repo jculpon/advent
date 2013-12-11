@@ -15,6 +15,10 @@ var erasure = {
          */
         $('#levelDisplay').html($('#levelDisplay').text().replace(regexp, erasure.addSpan));
 
+        $('#progress').progressbar({
+            max: erasure.targetWordsTotal(),
+            value: erasure.targetWordsFound()
+        });
         erasure.updateProgress()
     },
     addSpan: function(text) {
@@ -26,11 +30,18 @@ var erasure = {
     targetWordsRemaining: function() {
         return $('.erasable:visible').size();
     },
+    targetWordsFound: function() {
+        return erasure.targetWordsTotal() - erasure.targetWordsRemaining();
+    },
     updateProgress: function() {
-        var remaining = erasure.targetWordsRemaining();
-        var total = erasure.targetWordsTotal();
+        $('#progress').progressbar("option", "value", erasure.targetWordsFound());
 
-        $('#progress').text('Left: ' + remaining + '/' + total);
+        if (erasure.targetWordsRemaining() === 0) {
+            erasure.winning();
+        }
+    },
+    winning: function() {
+        alert('A WINNER IS YOU');
     }
     
 };
