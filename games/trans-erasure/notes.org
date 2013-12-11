@@ -20,8 +20,8 @@ What happens when you erase the wrong thing?
 *** Feedback
 * Tasks
 ** DONE Game overview
-** TODO Dumb sample text
-** TODO Erase word from sample text
+** DONE Dumb sample text
+** DONE Erase word from sample text
 ** TODO Progress bar on screen
 ** TODO Progress bar goes down when you erase stuff
 ** TODO YOU WIN when done erasing
@@ -30,3 +30,4 @@ What happens when you erase the wrong thing?
 ** Break out of org mode fidgeting 6:13 PM
 ** Overview finish 6:30 PM
 ** Start looking at impl 9:10 PM
+** Screw it, use jquery 9:30 PM
