@@ -18,16 +18,29 @@ Click word?
 Delete word from <textarea>?
 What happens when you erase the wrong thing?
 *** Feedback
+** Thoughts on reflection from last night
+*** Acting like a code chauvanist
+    just mark up the data, there won't be much. Hide it in invisible divs
+*** 
 * Tasks
 ** DONE Game overview
 ** DONE Dumb sample text
 ** DONE Erase word from sample text
-** TODO Progress bar on screen
-** TODO Progress bar goes down when you erase stuff
-** TODO YOU WIN when done erasing
+** DONE Progress bar on screen
+** DONE Progress bar goes down when you erase stuff
+** DONE YOU WIN when done erasing
+** TODO More eraserlike erase motion
+** TODO Suitable text to erase words from
+** TODO Feedback on what you're supposed to do?
+** TODO Style this to look ok
+*** TODO Font
+*** TODO Appropriate portions of screen
+** TODO Optional: Better than fadeOut() animation
+** TODO Optional: level transitions
 * Time
 ** Initial work start 6:00 PM
 ** Break out of org mode fidgeting 6:13 PM
 ** Overview finish 6:30 PM
 ** Start looking at impl 9:10 PM
 ** Screw it, use jquery 9:30 PM
+** 
