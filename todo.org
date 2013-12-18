@@ -1,0 +1,32 @@
+* Game Idealets
+** TODO Explode some text, win when text is all exploded
+** TODO Heat: asteroids clone where firing/moving builds up heat. Dissipating heat attracts enemies. Too much heat melts you.
+** TODO Twine game about the "you meet the weirdest people in the games industry" talk
+** TODO Trans* Erasure: A game where you literally erase trans* people (or their identities? pronouns?) from text
+
+Research
+--------
+
+- [x] Does a Stencyl equivelent for the web exist? *Stencyl can export SWFs but not anything plugin-free; listing some libs/engines to look in to below*
+** TODO Look at Phaser: http://phaser.io/
+** TODO Look at three.js: http://threejs.org/
+** TODO Look at pixi.js: https://github.com/GoodBoyDigital/pixi.js
+** TODO What are other folks doing with twine?
+** TODO Canvas? 
+** TODO WebGL?
+* Project Homepage
+** TODO Basic text: what this is, link to calendar
+** TODO Links back to other me stuff
+** TODO Styled decently
+* Calendar
+** TODO Unstyled list of links
+** TODO Calendarish layout
+** TODO Basic Styling (pixelish?)
+* Automation
+** TODO Deploy web content to pages
+** TODO Put game content in appropriate spot?
+* Promotion
+** TODO Figure out sites that might be interested in the idea
+** TODO Talk to indie games blogs?
+** TODO Twitter at folks?
+** TODO Blog?
