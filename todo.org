@@ -1,3 +1,9 @@
+* Tasking from daily
+*** TODO Text selection for erasure
+*** TODO Mark up text
+*** TODO Think about more games
+*** TODO noop game
+*** TODO Redaction game
 * Game Idealets
 ** TODO Explode some text, win when text is all exploded
 ** TODO Heat: asteroids clone where firing/moving builds up heat. Dissipating heat attracts enemies. Too much heat melts you.
