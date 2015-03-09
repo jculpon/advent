@@ -1,9 +1,3 @@
-* Game Idealets
-** TODO Explode some text, win when text is all exploded
-** TODO Heat: asteroids clone where firing/moving builds up heat. Dissipating heat attracts enemies. Too much heat melts you.
-** TODO Twine game about the "you meet the weirdest people in the games industry" talk
-** TODO Trans* Erasure: A game where you literally erase trans* people (or their identities? pronouns?) from text
-
 Research
 --------
 
