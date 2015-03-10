@@ -1,4 +1,5 @@
 GITHUB_BRANCH=gh-pages
+PUBLISH_DIR='./publish'
 LAST_COMMIT=`git log -1 --oneline`
 
 help:
@@ -18,14 +19,15 @@ help:
 prereqs:
 	pip install -r pip-requirements.txt
 
-publish:
-	@echo 'Not implemented!'
 
 test:
 	@echo 'Not implemented!'
 
 lint:
 	@echo 'Not implemented!'
+
+publish: 
+	@echo 'Only processing raw html currently...'
 
 github: publish
 	ghp-import -b $(GITHUB_BRANCH) -m "Publishing github pages from $(LAST_COMMIT)" $(PUBLISH_DIR)
