@@ -1,5 +1,6 @@
 GITHUB_BRANCH=gh-pages
 PUBLISH_DIR='./publish'
+GAMES_DIR=games
 LAST_COMMIT=`git log -1 --oneline`
 
 help:
@@ -21,7 +22,9 @@ prereqs:
 
 
 test:
-	@echo 'Not implemented!'
+	@echo "Making $(GAMES_DIR)"
+	$(MAKE) test -C $(GAMES_DIR)
+	@echo "...complete!"
 
 lint:
 	@echo 'Not implemented!'
@@ -33,4 +36,5 @@ github: publish
 	ghp-import -b $(GITHUB_BRANCH) -m "Publishing github pages from $(LAST_COMMIT)" $(PUBLISH_DIR)
 	git push origin $(GITHUB_BRANCH)
 
+.PHONY: $(GAMES_DIR)
 .PHONY: help github publish prereqs test lint
